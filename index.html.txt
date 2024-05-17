@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si Parla di Calcio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Si Parla di Calcio</h1>
+        <nav>
+            <ul>
+                <li><a href="#serieA">Serie A</a></li>
+                <li><a href="#serieB">Serie B</a></li>
+                <li><a href="#premierLeague">Premier League</a></li>
+                <li><a href="#laLiga">La Liga</a></li>
+                <li><a href="#ligue1">Ligue 1</a></li>
+                <li><a href="#eredivisie">Eredivisie</a></li>
+                <li><a href="#bundesliga">Bundesliga</a></li>
+                <li><a href="#notizie">Notizie</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <label>
+                <input type="checkbox" id="theme-switch">
+                Tema Scuro/Chiaro
+            </label>
+        </div>
+        <div class="account-options">
+            <a href="#login">Login</a> | <a href="#signup">Sign Up</a>
+        </div>
+    </header>
+    <main>
+        <section id="serieA">
+            <h2>Serie A</h2>
+            <!-- Contenuti Serie A -->
+        </section>
+        <section id="serieB">
+            <h2>Serie B</h2>
+            <!-- Contenuti Serie B -->
+        </section>
+        <section id="premierLeague">
+            <h2>Premier League</h2>
+            <!-- Contenuti Premier League -->
+        </section>
+        <section id="laLiga">
+            <h2>La Liga</h2>
+            <!-- Contenuti La Liga -->
+        </section>
+        <section id="ligue1">
+            <h2>Ligue 1</h2>
+            <!-- Contenuti Ligue 1 -->
+        </section>
+        <section id="eredivisie">
+            <h2>Eredivisie</h2>
+            <!-- Contenuti Eredivisie -->
+        </section>
+        <section id="bundesliga">
+            <h2>Bundesliga</h2>
+            <!-- Contenuti Bundesliga -->
+        </section>
+        <section id="notizie">
+            <h2>Notizie</h2>
+            <!-- Contenuti Notizie -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Si Parla di Calcio. Tutti i diritti riservati.</p>
+        <div class="subscription">
+            <label for="subscription-price">Prezzo Abbonamento:</label>
+            <input type="text" id="subscription-price" value="10€">
+            <button>Modifica Prezzo</button>
+        </div>
+    </footer>
+</body>
+</html>
